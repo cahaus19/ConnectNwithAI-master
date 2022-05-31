@@ -7,7 +7,7 @@ def determine_player_type(X) -> int:
         player_type = input(('Choose the type for Player {}\n'+ 'Enter Human or Random or Simple: ').format(X))
 
         player_type = player_type.strip()
-        player_type = player_type.lower()                 # probaby not the most graceful way to do this but it works
+        player_type = player_type.lower()
 
 
         if player_type == 'h' or player_type == 'hu' or player_type == 'hum' or player_type == 'huma' or player_type == 'human':
